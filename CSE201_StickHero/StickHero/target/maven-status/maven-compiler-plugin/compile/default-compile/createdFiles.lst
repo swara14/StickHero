@@ -1,0 +1,11 @@
+com/example/stickhero/SaveScoreAndCherries.class
+com/example/stickhero/Platform.class
+com/example/stickhero/StartController.class
+module-info.class
+com/example/stickhero/GameScreen.class
+com/example/stickhero/Character.class
+com/example/stickhero/Stick.class
+com/example/stickhero/MainController.class
+com/example/stickhero/Collect.class
+com/example/stickhero/EndController.class
+com/example/stickhero/Cherry.class

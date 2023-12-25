@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="com.example.stickhero.Scene2"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+<!--</AnchorPane>-->
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.MainController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" onMousePressed="#handleMousePressed" onMouseReleased="#handleMouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../backround-game.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="52.0" layoutX="721.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../cherry-game-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_textfield" alignment="CENTER" layoutX="347.0" layoutY="102.0" prefHeight="120.0" prefWidth="135.0" style="-fx-background-color: TRANSPARENT;" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="cherries_textfield" alignment="CENTER" layoutX="647.0" layoutY="13.0" prefHeight="73.0" prefWidth="73.0" style="-fx-background-color: TRANSPARENT;" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
