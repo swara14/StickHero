@@ -10,7 +10,7 @@
 The user cannot retrieve but the best score of every game is being stored.
 
 ## GitHub
-Link to the github repository - https://github.com/ananya-garg-04/CSE201_StickHero.git
+Link to the github repository - https://github.com/swara14/StickHero
 
 ## Run the file
 It can be cloned from the github link.
